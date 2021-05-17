@@ -43,6 +43,11 @@ fun main() {
                 }
             )
         }
+
+        /**
+         * Comando que tras recibir hola envia un string de saludo
+         */
+
         command("hola") {
 
             val result = bot.sendMessage(chatId = ChatId.fromId(update.message!!.chat.id), text = "Buenos dias," +
@@ -57,6 +62,21 @@ fun main() {
                 }
             )
         }
+
+        /**
+         * Comando que tras recibir adios se despide envia un string de despedida.
+         */
+        command("adios") {
+
+            val result = bot.sendMessage(chatId = ChatId.fromId(message.chat.id), text = "Idi Nahui")
+
+            result.fold({
+
+            }, {
+                // do something with the error
+            })
+        }
+
         message(Filter.Sticker) {
             bot.sendMessage(ChatId.fromId(message.chat.id), text = "Bonito sticker, pero no tanto como" +
                     " Vladimir Putin de carne y hueso <3")
@@ -74,6 +94,11 @@ fun main() {
                 parseMode = ParseMode.MARKDOWN
             )
         }
+
+        /**
+         * Comando con markdown que tras recibir importante enviara un enlace tambien.
+         */
+
         command("importante") {
             val markdownV2Text = """
                     *negrita*
@@ -245,6 +270,11 @@ fun main() {
     }
     bot.startPolling()
 }
+
+
+/**
+ * Retorna los botones generados
+ */
 
 fun generateUsersButton(): List<List<KeyboardButton>> {
     return listOf(
