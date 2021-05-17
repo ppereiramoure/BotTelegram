@@ -6,6 +6,7 @@ import com.github.kotlintelegrambot.dispatcher.command
 import com.github.kotlintelegrambot.dispatcher.pollAnswer
 import com.github.kotlintelegrambot.dispatcher.text
 import com.github.kotlintelegrambot.entities.ChatId
+import com.github.kotlintelegrambot.entities.polls.PollType
 import com.github.kotlintelegrambot.network.fold
 
 fun main() {
@@ -51,10 +52,43 @@ fun main() {
             }
             command("regularpoll") {
                 bot.sendPoll(
+
+                    /**Recoge la id del usuario que haya votado en la encuesta*/
                     chatId = ChatId.fromId(message.chat.id),
-                    question = "Que vodka es ruso?",
-                    options = listOf("Smirnoff", "Absolut", "Knebep"),
+                    question = "Te gusta el Vodka?",
+                    options = listOf("Si", "No"),
                     isAnonymous = false
+                )
+            }
+            command("quizpoll") {
+                bot.sendPoll(
+                    chatId = ChatId.fromId(message.chat.id),
+
+                    /**Define el tipo de encuesta*/
+                    type = PollType.QUIZ,
+
+                    /**Defines la pregunta*/
+                    question = "Que vodka es ruso?",
+
+                    /**Describes la respuestas*/
+                    options = listOf("Smirnoff", "Absolut", "Knebep"),
+
+                    /**Indicas la opcion correcta*/
+                    correctOptionId = 0,
+
+                    /**Defines si es anonimo*/
+                    isAnonymous = false
+                )
+            }
+            command("closedpoll") {
+                bot.sendPoll(
+                    chatId = ChatId.fromId(message.chat.id),
+                    type = PollType.QUIZ,
+                    question = "Cablagar o Osos?",
+                    options = listOf("Cabalgar", "Osos", "Cabalgar Osos"),
+                    correctOptionId = 2,
+                    isClosed = true,
+                    explanation = "Cerrado"
                 )
             }
         }
