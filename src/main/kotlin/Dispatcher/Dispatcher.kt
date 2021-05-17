@@ -133,10 +133,10 @@ fun main() {
             val inlineKeyboardMarkup = InlineKeyboardMarkup.create(
                 //text es el texto que aparece en el boton
                 //callbackData Retoena el callbackQuery asociado (linea de codigo )
-                listOf(InlineKeyboardButton.CallbackData(text = "Press", callbackData = "pizdiec")),
+                listOf(InlineKeyboardButton.CallbackData(text = "Opa", callbackData = "pizdiec")),
                 //text es el texto que aparece en el boton
                 //callbackData Retoena el callbackQuery asociado (linea de codigo )
-                listOf(InlineKeyboardButton.CallbackData(text = "Privet", callbackData = "Privet tovarich"))
+                listOf(InlineKeyboardButton.CallbackData(text = "Privet", callbackData = "tovarich, toma vodka para este frio siberiano"))
             )
             bot.sendMessage(
                 chatId = ChatId.fromId(message.chat.id),
@@ -195,11 +195,7 @@ fun main() {
          * Retorna el callbackQuery
          */
         //este texto de entrada tiene que coincidir con el texto que se le ponga al boton EN callbackData
-        callbackQuery(
-            callbackData = "Quierovodka",
-            callbackAnswerText = "Para soportar el frío invierno siberiano",
-            callbackAnswerShowAlert = true
-        ) {
+        callbackQuery("tovarich, toma vodka para este frio siberiano") {
             val chatId = callbackQuery.message?.chat?.id ?: return@callbackQuery
             bot.sendMessage(ChatId.fromId(chatId), callbackQuery.data)
         }
