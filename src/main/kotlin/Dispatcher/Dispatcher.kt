@@ -170,7 +170,7 @@ fun main() {
                 chatId = ChatId.fromId(message.chat.id),
                 mediaGroup = MediaGroup.from(
                     InputMediaPhoto(
-                        media = TelegramFile.ByUrl("https://wallpapercave.com/w/wp3090364g"),
+                        media = TelegramFile.ByUrl("https://phantom-elmundo.unidadeditorial.es/44a3e0214eef38f3eed7718475cf10c6/resize/746/f/jpg/assets/multimedia/imagenes/2018/10/07/15389251327694.jpg"),
                         caption = "Blyat UwU"
                     ),
                     InputMediaPhoto(
