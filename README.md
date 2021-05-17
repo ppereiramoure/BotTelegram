@@ -17,6 +17,8 @@ command("start") {
 }
 ~~~
 
+![Imagen Echo](https://github.com/ppereiramoure/BotTelegram/blob/master/Imagenes/Echo.png)
+
 ###Polls
 Las polls se tratan de encuestas en las que podemos votar en encuestas de opinion o contestar a preguntas. Existen de dos tipos, las QUIZ (Preguntas con una respuesta correcta) y las REGULAR (Pueden o no tener una respuesta correcta)
 
@@ -32,6 +34,10 @@ command("quizpoll") {
                 )
             }
 ~~~
+
+![Imagen Polls](https://github.com/ppereiramoure/BotTelegram/blob/master/Imagenes/2polls.png)
+![Imagen Polls2](https://github.com/ppereiramoure/BotTelegram/blob/master/Imagenes/ClosedPolls.png)
+
 
 ###Dispacher
 
