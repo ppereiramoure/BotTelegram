@@ -40,7 +40,7 @@ command("quizpoll") {
 
 
 ###Dispacher
-
+    En el dispatcher pondremos comandos del tipo /hola o /adios. Generalmente tras cada uno de estos comandos se envia un String, pero tambien tenemos el comando /inlinebuttons   que lo que hace es que instancia dos botones que daran una respuesta cada uno dependiendo de cual pulsemos.
 
 ###WebHook 
 Intente hacerlos pero es muy complejo asi que solo subi lo poco que hice
