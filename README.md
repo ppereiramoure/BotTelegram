@@ -40,7 +40,9 @@ command("quizpoll") {
 
 
 ### Dispatcher
-En el dispatcher pondremos comandos del tipo /hola o /adios. Generalmente tras cada uno de estos comandos se envia un String, pero tambien tenemos el comando /inlinebuttons  que lo que hace es que instancia dos botones que daran una respuesta cada uno dependiendo de cual pulsemos. El comando /foticos envia 2 fotos con un texto cada una y el comando /f que nos da la opción de compartir nuestra localización o bien nuestro numero de teléfono. Por ultimo esta el comando /dados que a pesar de su nombre nos muestra una diana a modo de giro argumental.
+En el dispatcher pondremos comandos del tipo /hola o /adios. Generalmente tras cada uno de estos comandos se envia un String, pero tambien tenemos el comando /inlinebuttons  que lo que hace es que instancia dos botones que daran una respuesta cada uno dependiendo de cual pulsemos. El comando /foticos envia 2 fotos con un texto cada una y el comando /f que nos da la opción de compartir nuestra localización o bien nuestro numero de teléfono. Por ultimo esta el comando /dados que a pesar de su nombre nos muestra una diana a modo de giro argumental y el comando /importante que lo que hace es enviar un texto con markdown para darle estilo a las letras y envía un enlace a un vídeo de youtube.
+
+
 Adjunto capturas del bot funcionando desde un dispositivo movil.
     
     
