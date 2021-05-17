@@ -20,7 +20,7 @@ command("start") {
 ![Imagen Echo](https://github.com/ppereiramoure/BotTelegram/blob/master/Imagenes/Echo.png)
 
 ###Polls
-Las polls se tratan de encuestas en las que podemos votar en encuestas de opinion o contestar a preguntas. Existen de dos tipos, las QUIZ (Preguntas con una respuesta correcta) y las REGULAR (Pueden o no tener una respuesta correcta)
+Las polls se tratan de encuestas en las que podemos votar. Existen de dos tipos, las QUIZ (Preguntas con una respuesta correcta) y las REGULAR (Pueden o no tener una respuesta correcta)
 
 ~~~
 command("quizpoll") {
@@ -42,3 +42,12 @@ command("quizpoll") {
 ###Dispacher
 
 
+###WebHook 
+Intente hacerlos pero es muy complejo asi que solo subi lo poco que hice
+
+###Bot
+
+Creado por:
+
+-Pablo Pereira Moure
+-Héctor Failde Estévez
