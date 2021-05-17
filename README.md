@@ -1,6 +1,6 @@
 ## BotTelegram
 
-###Indice
+### Indice
 
 > 1. Echo
 > 2. Polls
@@ -8,7 +8,7 @@
 > 4. Si pero no
 > 5. Bot
 
-###Echo
+### Echo
 Si el echo esta activado, reproduce cualquier mensaje que le hayamos indicado despues de introducir un comando
 
 ~~~
@@ -19,7 +19,7 @@ command("start") {
 
 ![Imagen Echo](https://github.com/ppereiramoure/BotTelegram/blob/master/Imagenes/Echo.png)
 
-###Polls
+### Polls
 Las polls se tratan de encuestas en las que podemos votar. Existen de dos tipos, las QUIZ (Preguntas con una respuesta correcta) y las REGULAR (Pueden o no tener una respuesta correcta)
 
 ~~~
@@ -39,13 +39,13 @@ command("quizpoll") {
 ![Imagen Polls2](https://github.com/ppereiramoure/BotTelegram/blob/master/Imagenes/ClosedPolls.png)
 
 
-###Dispacher
+### Dispacher
     En el dispatcher pondremos comandos del tipo /hola o /adios. Generalmente tras cada uno de estos comandos se envia un String, pero tambien tenemos el comando /inlinebuttons   que lo que hace es que instancia dos botones que daran una respuesta cada uno dependiendo de cual pulsemos.
 
-###WebHook 
+### WebHook 
 Intente hacerlos pero es muy complejo asi que solo subi lo poco que hice
 
-###Bot
+### Bot
 
 Creado por:
 
