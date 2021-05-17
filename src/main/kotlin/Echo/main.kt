@@ -7,6 +7,7 @@ import com.github.kotlintelegrambot.network.fold
 
 fun main() {
 
+
     /**Instanciamos un objeto bot*/
     val bot = bot {
 
@@ -17,11 +18,12 @@ fun main() {
         dispatch {
 
             text {
-
+              
                 print("Chat ID: ")
                 println(message.chat.id)
                 bot.sendMessage(chatId = ChatId.fromId(message.chat.id), text = text)
             }
+
 
             /**Creamos un comando que devolvera el mensaje que indiquemos*/
             command("start") {
