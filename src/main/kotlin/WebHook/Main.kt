@@ -12,6 +12,7 @@ import com.github.kotlintelegrambot.network.fold
 import com.github.kotlintelegrambot.webhook
 
 object MyBotConfig {
+    /*
     const val API_TOKEN = Apikey
     const val SERVER_HOSTNAME = "https://webhook.site/a9936e8c-e2d5-4c66-8e59-a88df655fefb"
 }
@@ -34,5 +35,5 @@ fun main() {
             }
         }
     }
-    bot.startWebhook()
+    bot.startWebhook()*/
 }

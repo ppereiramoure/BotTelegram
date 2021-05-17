@@ -87,7 +87,6 @@ fun main() {
                     question = "Cablagar o Osos?",
                     options = listOf("Cabalgar", "Osos", "Cabalgar Osos"),
                     correctOptionId = 2,
-                    isClosed = true,
                     explanation = "Cerrado"
                 )
             }
