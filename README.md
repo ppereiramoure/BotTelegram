@@ -46,7 +46,7 @@ Adjunto capturas del bot funcionando desde un dispositivo movil.
     
    ![Imagen hola adios y importante](https://github.com/ppereiramoure/BotTelegram/blob/master/Imagenes/hola%20adios%20y%20importante.png)
    ![Imagen foticos y dados](https://github.com/ppereiramoure/BotTelegram/blob/master/Imagenes/foticos%20y%20dados.png)
-   ![Imagen inlinebuttons y f](https://github.com/ppereiramoure/BotTelegram/blob/master/Imagenes/inlinebuttons%20y%20f.png)
+   ![Imagen inlinebuttons y f](https://github.com/ppereiramoure/BotTelegram/blob/master/Imagenes/inlineyf.jpg)
 
 ### WebHook 
 Intente hacerlos pero es muy complejo asi que solo subi lo poco que hice
