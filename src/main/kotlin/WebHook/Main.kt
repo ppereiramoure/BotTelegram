@@ -29,7 +29,7 @@ fun main() {
             allowedUpdates = listOf("message")
         }
         dispatch {
-            command("hello") {
+            command("Web") {
                 bot.sendMessage(ChatId.fromId(message.chat.id), "Buenas")
             }
         }
